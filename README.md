@@ -2,11 +2,15 @@
 
 | | |
 |-|-|
-|`Author` | Your full name
+|`Author` | Pascu Mihai-Alexandru
 
 ## Description
 
+It is a small weather station that offers features such as measuring indoor temperature, humidity and air quality by using an integrated sensor, as well as displaying data such as outdoor temperature, humidity, and wind speed via Wi-Fi connection. 
+
 ## Motivation
+
+Ease the access to relevant weather information, while allowing users to monitor indoor conditions in their homes.
 
 ## Architecture
 
@@ -26,9 +30,10 @@
 
 | Device | Usage | Price |
 |--------|--------|-------|
-| Activ Buzzer | Buzzer | [1.5 RON](https://www.optimusdigital.ro/ro/audio-buzzere/635-buzzer-activ-de-3-v.html?search_query=buzzer&results=61) |
-| Push Button | Button | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
-| Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
+| Microcontroller | [34.50 RON](https://www.optimusdigital.ro/ro/placi-raspberry-pi/12394-raspberry-pi-pico-w.html) |
+| Temperature and humidity sensor | [15 RON](https://www.optimusdigital.ro/ro/senzori/12961-senzor-de-temperatura-si-umiditate-htu21.html) |
+| LCD | [30 RON](https://www.optimusdigital.ro/ro/optoelectronice-lcd-uri/1312-modul-lcd-spi-de-144-128x128-ili9163-negru.html) |
+| Gas sensor | [12 RON](https://www.optimusdigital.ro/ro/senzori-de-gaze/1128-modul-senzor-de-gaz-mq-135.html) |
 | Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
 
 ### Libraries
