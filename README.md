@@ -34,7 +34,9 @@ Ease the access to relevant weather information, while allowing users to monitor
 | Temperature and humidity sensor | | [15 RON](https://www.optimusdigital.ro/ro/senzori/12961-senzor-de-temperatura-si-umiditate-htu21.html) |
 | LCD | | [30 RON](https://www.optimusdigital.ro/ro/optoelectronice-lcd-uri/1312-modul-lcd-spi-de-144-128x128-ili9163-negru.html) |
 | Gas sensor | | [12 RON](https://www.optimusdigital.ro/ro/senzori-de-gaze/1128-modul-senzor-de-gaz-mq-135.html) |
-| Breadboard | | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
+| Battery Support | | [2.5 RON](https://www.optimusdigital.ro/ro/suporturi-de-baterii/4057-suport-pentru-baterie-de-12v-23a.html) |
+| Jumper cables | | [4.5 RON](https://www.optimusdigital.ro/ro/toate-produsele/876-set-fire-mama-tata-10p-15-cm.html) |
+
 
 ### Libraries
 
