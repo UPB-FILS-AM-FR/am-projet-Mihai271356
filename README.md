@@ -17,7 +17,7 @@ Ease the access to relevant weather information, while allowing users to monitor
 ### Block diagram
 
 <!-- Make sure the path to the picture is correct -->
-![Block Diagram](/workspaces/am-projet-Mihai271356/download.png)
+![Block Diagram](download.png)
 
 ### Schematic
 
