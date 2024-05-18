@@ -21,7 +21,7 @@ Ease the access to relevant weather information, while allowing users to monitor
 
 ### Schematic
 
-![Schematic](schematics/kicad_schematic.png)
+![Schematic](schema.png)
 
 ### Components
 
@@ -44,8 +44,8 @@ Ease the access to relevant weather information, while allowing users to monitor
 
 | Library | Description | Usage |
 |---------|-------------|-------|
-| [lib-name1](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
-| [lib-name2](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
+| [RP2040 SDK](https://www.raspberrypi.com/documentation/pico-sdk/) | official description of the lib |   |
+| [SPI Library](link-to-lib) | official description of the lib |   |
 
 ## Log
 
