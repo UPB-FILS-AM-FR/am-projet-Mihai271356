@@ -1,23 +1,27 @@
-# Your Project Name
+# Weather Station
 
 | | |
 |-|-|
-|`Author` | Your full name
+|`Author` | Pascu Mihai-Alexandru
 
 ## Description
 
+It is a small weather station that offers features such as measuring  temperature, humidity, wind speed and air quality by using integrated sensors and a motor.
+
 ## Motivation
+
+Ease the access to relevant weather information.
 
 ## Architecture
 
 ### Block diagram
 
 <!-- Make sure the path to the picture is correct -->
-![Block Diagram](schematics/block_diagram.png)
+![Block Diagram](block_diagram.png)
 
 ### Schematic
 
-![Schematic](schematics/kicad_schematic.png)
+![Schematic](schema.png)
 
 ### Components
 
@@ -26,10 +30,15 @@
 
 | Device | Usage | Price |
 |--------|--------|-------|
-| Activ Buzzer | Buzzer | [1.5 RON](https://www.optimusdigital.ro/ro/audio-buzzere/635-buzzer-activ-de-3-v.html?search_query=buzzer&results=61) |
-| Push Button | Button | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
-| Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
-| Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
+| Arduino UNO | Microcontroller | [34.50 RON](https://www.optimusdigital.ro/ro/placi-avr/1685-uno-r3-atmega328p-atmega16u2-placa-de-dezvoltare-compatibila-cu-arduino.html?search_query=arduino+uno&results=138) |
+| HTU21 | Measure Temperature And Humidity | [15 RON](https://www.optimusdigital.ro/ro/senzori/12961-senzor-de-temperatura-si-umiditate-htu21.html) |
+| Modul LCD | Display Weather Information | [30 RON](https://www.optimusdigital.ro/ro/optoelectronice-lcd-uri/1312-modul-lcd-spi-de-144-128x128-ili9163-negru.html) |
+| Gas sensor | Measure Air Quality | [12 RON](https://www.optimusdigital.ro/ro/senzori-de-gaze/1128-modul-senzor-de-gaz-mq-135.html) |
+| Breadboard | Ease Connection Of Devices | [9.98 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=151) |
+| Motor | Measure wind speed | [9.99 RON](https://www.optimusdigital.ro/ro/motoare-altele/2354-motor-de-mare-viteza-coreless-4-x-8-mm-70000-rpm-la-3-v.html?search_query=motor+70000&results=1) |
+| Male-Female Jumper cables | Connect Devices | [4.5 RON](https://www.optimusdigital.ro/ro/toate-produsele/876-set-fire-mama-tata-10p-15-cm.html) |
+| Female-Female Jumper cables | Connect Devices | [6.99 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/881-set-fire-mama-mama-40p-15-cm.html?search_query=jumper+wire&results=13) |
+
 
 ### Libraries
 
@@ -37,8 +46,12 @@
 
 | Library | Description | Usage |
 |---------|-------------|-------|
-| [lib-name1](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
-| [lib-name2](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
+| [Adafruit Sensor](https://github.com/adafruit/Adafruit_Sensor) | Provides a unified sensor interface | |
+| [Adafruit HTU21DF](https://github.com/adafruit/Adafruit_HTU21DF_Library) | Interfaces with the HTU21DF temperature and humidity sensor |   |
+| [Adafruit GFX](https://github.com/adafruit/Adafruit-GFX-Library) | Core graphics library for displays |   |
+| [Adafruit ST7735](https://github.com/adafruit/Adafruit-ST7735-Library) | Drives the ST7735 LCD display |   |
+| [SPI](https://www.arduino.cc/reference/en/language/functions/communication/spi/) | Enables SPI communication |   |
+
 
 ## Log
 
@@ -55,8 +68,20 @@
 
 <!-- Fill in with appropriate links and link titles -->
 
-[Tutorial 1](https://www.youtube.com/watch?v=wdgULBpRoXk&t=1s&ab_channel=BenEater)
+[MQ-135 Sensor Tutorial](https://www.youtube.com/watch?v=Ku4Y29XPyyo)
+[LCD Tutorial](https://www.youtube.com/watch?v=-nECx4DOE84)
 
-[Article 1](https://www.explainthatstuff.com/induction-motors.html)
+## Proof
 
-[Link title](https://projecthub.arduino.cc/)
+![Video1](VID_20240526_032457.mp4)
+![Video2](VID_20240526_032817.mp4)
+![Video3](VID_20240526_213623.mp4)
+
+## Code
+
+![Code](cod.ino)
+
+
+
+
+
