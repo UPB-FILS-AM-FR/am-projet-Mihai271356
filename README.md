@@ -37,7 +37,7 @@ Ease the access to relevant weather information.
 | Breadboard | Ease Connection Of Devices | [9.98 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=151) |
 | Motor | Measure wind speed | [9.99 RON](https://www.optimusdigital.ro/ro/motoare-altele/2354-motor-de-mare-viteza-coreless-4-x-8-mm-70000-rpm-la-3-v.html?search_query=motor+70000&results=1) |
 | Male-Female Jumper cables | Connect Devices | [4.5 RON](https://www.optimusdigital.ro/ro/toate-produsele/876-set-fire-mama-tata-10p-15-cm.html) |
-| Female-Female Jumper cables | Connect Devices | [6.99 RON]https://www.optimusdigital.ro/ro/fire-fire-mufate/881-set-fire-mama-mama-40p-15-cm.html?search_query=jumper+wire&results=13) |
+| Female-Female Jumper cables | Connect Devices | [6.99 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/881-set-fire-mama-mama-40p-15-cm.html?search_query=jumper+wire&results=13) |
 
 
 ### Libraries
@@ -46,7 +46,7 @@ Ease the access to relevant weather information.
 
 | Library | Description | Usage |
 |---------|-------------|-------|
-| [Adafruit Sensor](https://github.com/adafruit/Adafruit_Sensor) | Provides a unified sensor interface |   |
+| [Adafruit Sensor](https://github.com/adafruit/Adafruit_Sensor) | Provides a unified sensor interface | |
 | [Adafruit HTU21DF](https://github.com/adafruit/Adafruit_HTU21DF_Library) | Interfaces with the HTU21DF temperature and humidity sensor |   |
 | [Adafruit GFX](https://github.com/adafruit/Adafruit-GFX-Library) | Core graphics library for displays |   |
 | [Adafruit ST7735](https://github.com/adafruit/Adafruit-ST7735-Library) | Drives the ST7735 LCD display |   |
