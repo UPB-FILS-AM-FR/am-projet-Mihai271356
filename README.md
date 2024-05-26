@@ -71,4 +71,17 @@ Ease the access to relevant weather information.
 [MQ-135 Sensor Tutorial](https://www.youtube.com/watch?v=Ku4Y29XPyyo)
 [LCD Tutorial](https://www.youtube.com/watch?v=-nECx4DOE84)
 
+## Proof
+
+![Video1](VID_20240526_032457.mp4)
+![Video2](VID_20240526_032817.mp4)
+![Video3](VID_20240526_213623.mp4)
+
+## Code
+
+![Code](cod.ino)
+
+
+
+
 
